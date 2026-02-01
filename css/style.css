@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  font-family: Arial;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: gold;
+}
+
+.gif {
+  width: 300px;
+}
+
+.wish {
+  animation: fade 2s infinite;
+}
+
+.delay { animation-delay: 1s; }
+.delay2 { animation-delay: 2s; }
+
+@keyframes fade {
+  0% {opacity:0;}
+  50% {opacity:1;}
+  100% {opacity:0;}
+}
